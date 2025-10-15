@@ -1,4 +1,21 @@
-test/
-node_modules/
-.genkit/
-*.js
+# Firebase
+.firebase
+firebase-debug.log
+
+# Dependencies
+/node_modules
+
+# Environment variables
+.env
+*.env*
+functions/.env
+
+# Sensitive JSON files
+functions/*.json
+
+# Misc
+.DS_Store
+npm-debug.log
+
+# IDE & temporary files
+.idx/
