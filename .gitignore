@@ -17,3 +17,4 @@ yarn-error.log*
 
 # Service account keys
 *.json
+!tsconfig.json
