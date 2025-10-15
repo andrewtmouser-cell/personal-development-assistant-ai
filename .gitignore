@@ -1,20 +1,15 @@
-# Dependencies
+# Node.js
 /node_modules
+npm-debug.log
+yarn-error.log
 
-# Build artifacts
-/build
-/dist
-/.next
+# Firebase
+.firebase
 
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# IDE files
+.idea
+.vscode
 
-# Other
-.DS_Store
-
-# Service account keys
-*.json
-!tsconfig.json
+# Build output
+/lib
+/out
